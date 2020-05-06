@@ -15,7 +15,14 @@ def revert_number(n):
     # print(revert)
 
 
-# cProfile.run('revert_number(100000)')
+# cProfile.run('revert_number(123456789)')
+'''
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 les_3_task_3.py:10(revert_number)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+'''
 
 '''
 "les_3_task_3.revert_number(10)"
